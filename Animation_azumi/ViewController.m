@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     [self animate:3];
-//ぼくはホモです。。
+
 }
 
 
@@ -36,6 +36,8 @@
         [self animate:count+1];
     }];
     
+    
+    //再帰処理で自分のことをよびかえしている
 
     
     
